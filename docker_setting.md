@@ -9,7 +9,7 @@
 ### `docker`修改镜像源
     (sudo) vi /etc/docker/daemon.json  
 
-在文本中‘registry-mirrors’部分添加镜像源  
+在文本中`registry-mirrors`部分添加镜像源  
 附`vim`命令    
 
 进入文本插入模式：键入`i`  
