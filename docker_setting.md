@@ -1,4 +1,7 @@
-[设置`sudo`权限](#`ubuntu`设置`sudo`权限→避免每次`sudo`输入密码)
+*[设置`sudo`权限](#`ubuntu`设置`sudo`权限→避免每次`sudo`输入密码)
+    [`docker`修改镜像源](#`docker`修改镜像源（需要已安装vim）)
+
+
 
 ## `ubuntu`设置`sudo`权限→避免每次`sudo`输入密码
     sudo visudo
