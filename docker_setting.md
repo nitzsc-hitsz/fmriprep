@@ -3,5 +3,5 @@
     
 在文件底部添加以下代码，`XXX`是`ubuntu`登录用户名  
     
-    XXX  ALL=(ALL) NOPASSWD: ALL 
+    XXX ALL=(ALL) NOPASSWD: ALL 
 `crtl+X`保存，实现每次`sudo`不需要另外输入密码
