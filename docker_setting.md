@@ -1,4 +1,4 @@
-[设置`sudo`权限](##ubuntu设置sudo权限)  
+[设置`sudo`权限](##ubuntu-sudo)  
 [`docker`修改镜像源](##`docker`修改镜像源（需要已安装vim）)  
 [`docker`拉取镜像](##`docker`拉取镜像，查看镜像)  
 [启动`docker`容器](##启动`docker`容器)
