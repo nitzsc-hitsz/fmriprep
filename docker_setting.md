@@ -1,6 +1,6 @@
 [ubuntu设置sudo权限](#ubuntu设置sudo权限)
 
-##`ubuntu`设置sudo权限
+## `ubuntu`设置sudo权限
     sudo visudo
     
 在文件底部添加以下代码，`XXX`是`ubuntu`登录用户名  
