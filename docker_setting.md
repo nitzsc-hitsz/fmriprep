@@ -2,7 +2,7 @@
 [docker修改镜像源](#docker修改镜像源)  
 [docker拉取镜像,查看镜像](#docker拉取镜像)  
 [启动docker容器](#启动docker容器)  
-
+[docker`查看正在运行的容器](#docker查看正在运行的容器)
 
 
 # `ubuntu`设置`sudo`权限
