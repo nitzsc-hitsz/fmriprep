@@ -1,3 +1,5 @@
+docker_setting/
+
 ## `ubuntu`设置`sudo`权限→避免每次`sudo`输入密码
     sudo visudo
     
