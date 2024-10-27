@@ -1,3 +1,5 @@
+[1](#`ubuntu`-设置-`sudo`-权限)
+
 ## `ubuntu`设置`sudo`权限
     sudo visudo
     
