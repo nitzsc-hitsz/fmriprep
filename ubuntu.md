@@ -2,4 +2,4 @@
 
 # `Ubuntu`创建文件夹
 
-  (sudo) mkdir /xx/xx
+  (sudo) mkdir /xx/xx  
