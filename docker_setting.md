@@ -6,7 +6,7 @@
     XXX ALL=(ALL) NOPASSWD: ALL 
 `crtl+X`保存，实现每次`sudo`不需要另外输入密码
 
-### `docker`修改镜像源
+### `docker`修改镜像源（需要已安装vim）
     (sudo) vi /etc/docker/daemon.json  
 
 在文本中`registry-mirrors`部分添加镜像源  
