@@ -36,4 +36,4 @@
 
 # 启动`docker`容器
 
-    sudo docker run -it -p 9999:9999 --rm -v (in_path):(out_path) tigrlab/fmriprep_ciftify:v1.3.2-2.3.3
+    (sudo) docker run -it -p 9999:9999 --rm -v (in_path):(out_path) tigrlab/fmriprep_ciftify:v1.3.2-2.3.3
