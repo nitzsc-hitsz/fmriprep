@@ -42,7 +42,7 @@
 
     apt-get install jupyter
     apt-get install ipython  或者  sudo apt install python3-ipython
-    upyter notebook --generate-config
+    jupyter notebook --generate-config
 
 ### 生成密码、修改配置文件  
     jupyter notebook password  
@@ -71,5 +71,10 @@
 ### 启动`jupyter`
 
     jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --port 8891
-    
+
+### 本地`ssh`连接
+
+    ssh -L 8891:localhost:8891 [用户名]@[主机IP]
+
+浏览器打开`http://localhost:8891`，输入登录密码即可
 
