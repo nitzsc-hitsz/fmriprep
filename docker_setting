@@ -1,0 +1,3 @@
+### ubuntu设置sudo权限
+  sudo visudo  
+  XXX ALL=(ALL) NOPASSWD: ALL  
