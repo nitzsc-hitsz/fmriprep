@@ -1,4 +1,4 @@
-[1](#ubuntu-设置-sudo-权限)
+[1](#ubuntu设置sudo权限)
 
 ## ubuntu设置sudo权限
     sudo visudo
