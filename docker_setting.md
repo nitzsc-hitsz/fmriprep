@@ -36,11 +36,40 @@
 
 # 启动`docker`容器
 
-    (sudo) docker run -it -p 9999:9999 --rm -v (in_path):(out_path) tigrlab/fmriprep_ciftify:v1.3.2-2.3.3
+    (sudo) docker run -it -p 8891:8891 --rm -v (in_path):(out_path) tigrlab/fmriprep_ciftify:v1.3.2-2.3.3
 
-## 生成`jupyter notebook`配置文件
+### 生成`jupyter notebook`配置文件
 
     apt-get install jupyter
-    apt-get install ipython
-    或者
-    sudo apt install python3-ipython
+    apt-get install ipython  或者  sudo apt install python3-ipython
+    upyter notebook --generate-config
+
+### 生成密码、修改配置文件  
+    jupyter notebook password  
+    (sudo) vi /root/.jupyter/jupyter_notebook_config.json   
+
+在`json`文件中将生成密文，复制该密文  
+
+    (sudo) vi /root/.jupyter/jupyter_notebook_config.py  
+
+进入`insert`模式，添加或者修改这几行
+
+    c.NotebookApp.ip='*'  
+    c.NotebookApp.password = u'刚才复制的那个密文'  
+    c.NotebookApp.open_browser = False  
+    c.NotebookApp.port =9999   
+
+### 安装`python3-dev`  
+
+    (sudo) apt-get install python3-dev
+
+### 安装`ipykernel`  
+
+    pip install ipykernel
+    python -m ipykernel install --user --name (环境名称)
+
+### 启动`jupyter`
+
+    jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --port 8891
+    
+
