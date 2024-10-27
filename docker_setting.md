@@ -1,6 +1,6 @@
 [ubuntu设置sudo权限](#ubuntu设置sudo权限) 
 [docker修改镜像源](#docker修改镜像源) 
-[docker拉取镜像,查看镜像](#docker拉取镜像-查看镜像) 
+[docker拉取镜像,查看镜像](#docker拉取镜像) 
 [](#) 
 
 
@@ -25,7 +25,7 @@
 结束文本插入：键入`Esc`  
 保存文件：键入`:`，然后键入`w+q`  
 
-# `docker`拉取镜像,查看镜像
+# `docker`拉取镜像
 查看镜像  
 
     (sudo) docker image ls  
