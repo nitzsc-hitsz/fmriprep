@@ -1,4 +1,6 @@
-[Ubuntu创建文件夹](#Ubuntu创建文件夹)
+[Ubuntu文件夹命令](#Ubuntu文件夹命令)
 
-# `Ubuntu`创建文件夹  
+# `Ubuntu`文件夹命令
+创建文件夹
+
     (sudo) mkdir /xx/xx
