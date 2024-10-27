@@ -37,3 +37,12 @@
 # 启动`docker`容器
 
     (sudo) docker run -it -p 9999:9999 --rm -v (in_path):(out_path) tigrlab/fmriprep_ciftify:v1.3.2-2.3.3
+
+## 生成`jupyter notebook`配置文件
+
+    apt-get install jupyter
+    apt-get install ipython
+
+    或者
+
+    sudo apt install python3-ipython
