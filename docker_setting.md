@@ -1,5 +1,5 @@
 [ubuntu设置sudo权限](#ubuntu设置sudo权限)
-[docker修改镜像源](#docker修改镜像源（需要已安装vim）)
+[docker修改镜像源](#docker修改镜像源)
 [](#)
 [](#)
 
@@ -13,7 +13,8 @@
     XXX ALL=(ALL) NOPASSWD: ALL 
 `crtl+X`保存，实现每次`sudo`不需要另外输入密码
 
-## `docker`修改镜像源（需要已安装vim）
+## `docker`修改镜像源
+需要已安装vim  
     (sudo) vi /etc/docker/daemon.json  
 
 在文本中`registry-mirrors`部分添加镜像源  
