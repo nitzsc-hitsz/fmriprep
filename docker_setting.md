@@ -57,7 +57,7 @@
     c.NotebookApp.ip='*'  
     c.NotebookApp.password = u'刚才复制的那个密文'  
     c.NotebookApp.open_browser = False  
-    c.NotebookApp.port =9999   
+    c.NotebookApp.port =8891   
 
 ### 安装`python3-dev`  
 
