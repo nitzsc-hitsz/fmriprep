@@ -42,7 +42,5 @@
 
     apt-get install jupyter
     apt-get install ipython
-
-或者
-
+    或者
     sudo apt install python3-ipython
