@@ -2,6 +2,7 @@
 [`docker`修改镜像源](##`docker`修改镜像源（需要已安装vim）)  
 [`docker`拉取镜像](##`docker`拉取镜像，查看镜像)  
 [启动`docker`容器](##启动`docker`容器)
+[sss](#sss)
 ## `ubuntu`设置`sudo`权限→避免每次`sudo`输入密码
     sudo visudo
     
@@ -32,3 +33,4 @@
 ## 启动`docker`容器
 
     sudo docker run -it -p 9999:9999 --rm -v (in_path):(out_path) tigrlab/fmriprep_ciftify:v1.3.2-2.3.3
+## sss
