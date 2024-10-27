@@ -78,3 +78,6 @@
 
 浏览器打开`http://localhost:8891`，输入登录密码即可
 
+# `docker`查看正在运行的容器
+
+    (sudo) docker ps -a 
