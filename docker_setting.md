@@ -1,4 +1,9 @@
 [ubuntu设置sudo权限](#ubuntu设置sudo权限)
+[docker修改镜像源](#docker修改镜像源（需要已安装vim）)
+[](#)
+[](#)
+
+
 
 ## `ubuntu`设置`sudo`权限
     sudo visudo
