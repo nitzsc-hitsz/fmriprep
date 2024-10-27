@@ -2,7 +2,7 @@
 [`docker`修改镜像源](##`docker`修改镜像源（需要已安装vim）)  
 [`docker`拉取镜像](##`docker`拉取镜像，查看镜像)  
 [启动`docker`容器](##启动`docker`容器)
-[sss](#`docker`权限)
+[sss](#`docker`)
 
 ## `docker`权限
 ## `ubuntu`设置`sudo`权限→避免每次`sudo`输入密码
