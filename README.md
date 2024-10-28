@@ -6,4 +6,4 @@
 
 # 目录
 
-[ubuntu指令集](#/fmriprep/ubuntu.md)
+[docker入门指令](https://github.com/nitzsc-hitsz/fmriprep/blob/main/docker_setting.md)
