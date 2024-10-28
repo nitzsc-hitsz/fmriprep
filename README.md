@@ -6,4 +6,4 @@
 
 # 目录
 
-[ubuntu指令集](#ubuntu.md)
+[ubuntu指令集](#fmriprep/ubuntu.md)
