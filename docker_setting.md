@@ -1,17 +1,8 @@
-[ubuntu设置sudo权限](#ubuntu设置sudo权限)  
 [docker修改镜像源](#docker修改镜像源)  
 [docker拉取镜像,查看镜像](#docker拉取镜像)  
 [启动docker容器](#启动docker容器)  
-[docker查看正在运行的容器](#docker查看正在运行的容器)  
 [jupyter调试docker容器  ](#jupyter调试docker容器  )
-
-# `ubuntu`设置`sudo`权限
-    sudo visudo
-    
-在文件底部添加以下代码，`XXX`是`ubuntu`登录用户名  
-    
-    XXX ALL=(ALL) NOPASSWD: ALL 
-`crtl+X`保存，实现每次`sudo`不需要另外输入密码
+[docker查看正在运行的容器](#docker查看正在运行的容器)  
 
 # `docker`修改镜像源
 需要已安装`vim`
