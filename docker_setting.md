@@ -3,7 +3,7 @@
 [docker拉取镜像,查看镜像](#docker拉取镜像)  
 [启动docker容器](#启动docker容器)  
 [docker查看正在运行的容器](#docker查看正在运行的容器)
-
+[jupyter调试docker容器  ](#jupyter调试docker容器  )
 
 # `ubuntu`设置`sudo`权限
     sudo visudo
@@ -21,9 +21,9 @@
 在文本中`registry-mirrors`部分添加镜像源  
 附`vim`命令    
 
-进入文本`insert`模式：键入`i`  
-结束文本插入：键入`Esc`  
-保存文件：键入`:`，然后键入`w+q`  
+- 进入文本`insert`模式：键入`i`  
+- 结束文本插入：键入`Esc`  
+- 保存文件：键入`:`，然后键入`w+q`  
 
 # `docker`拉取镜像
 查看镜像  
@@ -36,8 +36,19 @@
 
 # 启动`docker`容器
 
-    (sudo) docker run -it -p 8891:8891 --rm -v (in_path):(out_path) tigrlab/fmriprep_ciftify:v1.3.2-2.3.3
+    (sudo) docker run -it -p 8891:8891 --rm -v (in_path):(out_path) tigrlab/fmriprep_ciftify:v1.3.2-2.3.3  
 
+附加启动指令  
+- `-d`后台模式运行容器  
+- `--rm`退出容器的时候自动移除容器，不需要手动删除  
+- `-it`进入容器的交互模式
+- `--name [name]`为容器命名
+- `-v`本地文件夹只可读，`rw`读写
+- `exit`指令退出容器
+- `-p xxxx:yyyy`指定容器的端口
+
+# `jupyter`调试`docker`容器  
+先要启动一个容器并指定端口
 ### 生成`jupyter notebook`配置文件
 
     apt-get install jupyter
