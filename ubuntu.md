@@ -1,4 +1,14 @@
-[Ubuntu文件夹命令](#Ubuntu文件夹命令)
+[ubuntu设置sudo权限](#ubuntu设置sudo权限)    
+[Ubuntu文件夹命令](#Ubuntu文件夹命令)  
+
+# `ubuntu`设置`sudo`权限
+    sudo visudo
+    
+在文件底部添加以下代码，`XXX`是`ubuntu`登录用户名  
+    
+    XXX ALL=(ALL) NOPASSWD: ALL 
+`crtl+X`保存，实现每次`sudo`不需要另外输入密码
+
 
 # `Ubuntu`文件夹命令
 创建文件夹
